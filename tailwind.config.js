@@ -1,7 +1,9 @@
 module.exports = {
-  content: [],
+  content: [
+      './src/index.html'
+  ],
   theme: {
-    color: {
+    colors: {
       'color01' : '#6666FF',
       'color02' : '#FF3399',
       'color03' : '#343434',
@@ -10,9 +12,17 @@ module.exports = {
       'color06' : '#FFFFFF',
     },
 
+    fontFamily : {
+      'Lato' : 'Lato'
+    },
+
+    container : {
+      center : true,
+    },
+
     extend: {
-      screen : {
-        'xl' : '1200px'
+      screens : {
+        'xl' : '1140px'
       },
     },
   },
