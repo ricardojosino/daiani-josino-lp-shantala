@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="icon" type="image/x-icon" href="asset/img/favicon.png">
-        <link rel="stylesheet" href="asset/css/theme.css?version=2">
-        <link rel="stylesheet" href="asset/css/style.css?version=2">
+        <link rel="stylesheet" href="asset/css/theme.css?version=3">
+        <link rel="stylesheet" href="asset/css/style.css?version=3">
         <title>Como prevenir as crises de cólica em seu bebê</title>
     </head>
     <body>
@@ -53,8 +53,9 @@
 
                 <div class="w-full my-5 md:flex md:flex-row lg:my-0 lg:w-1/2 lg:justify-end xl:w-[640px] xl:flex-shrink-0 " >
 
-                    <div class="video w-full">
-                        <a href="#"><img class="w-full" src="asset/img/video.webp" alt="Assistir vídeo"></a>
+                    <!-- Vídeo de venda -->
+                    <div id="video-venda" class="video w-full">
+                        <a id="video-venda-click" href="#"><img class="w-full" src="asset/img/video.webp" alt="Assistir vídeo"></a>
                     </div>
 
                 </div>
@@ -265,6 +266,17 @@
             </div>
         </div>
 
+
+        <script>
+            let video = document.querySelector('#video-venda')
+            let video_click = document.querySelector('#video-venda-click')
+
+            video_click.addEventListener('click', function(e) {
+                e.preventDefault()
+                video.innerHTML = '<iframe class="w-full aspect-video" width="640" height="360" src="https://www.youtube.com/embed/zQ6Qt1pTnLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            })
+
+        </script>
 
     </body>
 </html>
