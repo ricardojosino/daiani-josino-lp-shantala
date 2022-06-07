@@ -21,6 +21,7 @@
     --fontFamily: 'Lato';
 }
 
+
 /* TEMA DO SITE */
 .theme-title-01 {
     font-family: var(--fontFamily);
@@ -279,4 +280,9 @@
 .theme-btn-01 svg
 {
     margin-right: 7px;
+}
+
+.theme-bg-beneficios-shantala
+{
+    background-image: url("../img/beneficios-da-shantala.jpg");
 }

@@ -20,6 +20,8 @@ module.exports = {
       center : true,
     },
 
+
+
     extend: {
       screens : {
         'xl' : '1140px'
