@@ -578,6 +578,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -594,6 +610,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   aspect-ratio: 16 / 9;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-auto {
   height: auto;
 }
@@ -602,8 +622,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 50px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
 .min-h-\[380px\] {
   min-height: 380px;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[180px\] {
+  min-height: 180px;
+}
+
+.min-h-\[500px\] {
+  min-height: 500px;
+}
+
+.min-h-\[600px\] {
+  min-height: 600px;
+}
+
+.min-h-\[300px\] {
+  min-height: 300px;
 }
 
 .w-full {
@@ -612,6 +660,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[50px\] {
   width: 50px;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
 }
 
 .max-w-screen-xl {
@@ -628,6 +684,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[660px\] {
   max-width: 660px;
+}
+
+.max-w-\[375px\] {
+  max-width: 375px;
+}
+
+.max-w-\[430px\] {
+  max-width: 430px;
 }
 
 .flex-shrink-0 {
@@ -694,8 +758,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-b-\[10px\] {
@@ -759,6 +835,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../img/sample-profile.png');
 }
 
+.bg-\[url\(\'\.\.\/img\/video-sobre-shantala\.webp\'\)\] {
+  background-image: url('../img/video-sobre-shantala.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/beneficios-da-shantala\.webp\'\)\] {
+  background-image: url('../img/beneficios-da-shantala.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/sample-img-bio\.webp\'\)\] {
+  background-image: url('../img/sample-img-bio.webp');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -777,6 +865,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-\[20px\] {
@@ -839,8 +935,45 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-column: span 2 / span 2;
   }
 
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:aspect-video {
+    aspect-ratio: 16 / 9;
+  }
+
+  .md\:aspect-auto {
+    aspect-ratio: auto;
+  }
+
+  .md\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .md\:min-h-\[400px\] {
+    min-height: 400px;
+  }
+
+  .md\:min-h-\[450px\] {
+    min-height: 450px;
+  }
+
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .md\:max-w-\[375\] {
+    max-width: 375;
+  }
+
+  .md\:max-w-\[375px\] {
+    max-width: 375px;
   }
 
   .md\:grid-cols-4 {
@@ -898,6 +1031,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .lg\:min-h-\[500px\] {
+    min-height: 500px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -908,6 +1045,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:max-w-\[470px\] {
     max-width: 470px;
+  }
+
+  .lg\:max-w-\[430px\] {
+    max-width: 430px;
   }
 
   .lg\:grid-cols-2 {
@@ -945,6 +1086,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:gap-4 {
     gap: 1rem;
   }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
 }
 
 @media (min-width: 1140px) {
@@ -956,12 +1101,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     min-height: 850px;
   }
 
+  .xl\:min-h-\[600px\] {
+    min-height: 600px;
+  }
+
   .xl\:w-\[640px\] {
     width: 640px;
   }
 
   .xl\:w-\[500px\] {
     width: 500px;
+  }
+
+  .xl\:max-w-\[430px\] {
+    max-width: 430px;
   }
 
   .xl\:flex-shrink-0 {
@@ -974,5 +1127,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:pl-\[50px\] {
     padding-left: 50px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:min-h-\[600px\] {
+    min-height: 600px;
   }
 }
