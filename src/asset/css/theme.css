@@ -1,21 +1,21 @@
 
 @font-face {
-    font-family: 'Lato';
-    src: local('Lato'), url("../fonts/Lato-Light.ttf");
+    font-family: 'pedro';
+    src: local('pedro'), url("../fonts/Lato-Light.ttf");
     font-weight: 300;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: local('Lato'), url("../fonts/Lato-Regular.ttf");
+    font-family: 'pedro';
+    src: local('pedro'), url("../fonts/Lato-Regular.ttf");
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: local('Lato'), url("../fonts/Lato-Bold.ttf");
+    font-family: 'pedro';
+    src: local('pedro'), url("../fonts/Lato-Bold.ttf");
     font-weight: bold;
     font-display: swap;
 }
@@ -276,8 +276,6 @@
     line-height: 26px;
     border-radius: 5px;
 
-
-
 }
 
 .theme-btn-01 svg
@@ -285,7 +283,3 @@
     margin-right: 7px;
 }
 
-.theme-bg-beneficios-shantala
-{
-    background-image: url("../img/beneficios-da-shantala.jpg");
-}

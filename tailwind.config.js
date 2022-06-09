@@ -1,6 +1,7 @@
 module.exports = {
   content: [
-      './src/index.html'
+      './src/index.html',
+      './src/typography.html'
   ],
   theme: {
     colors: {
@@ -13,7 +14,7 @@ module.exports = {
     },
 
     fontFamily : {
-      'Lato' : 'Lato'
+      'lato' : 'lato'
     },
 
     container : {

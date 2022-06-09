@@ -423,6 +423,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+@font-face {
+  font-family: 'lato';
+
+  src: local('lato'), url("../fonts/Lato-Light.ttf");
+
+  font-weight: 300;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lato';
+
+  src: local('lato'), url("../fonts/Lato-Regular.ttf");
+
+  font-weight: 400;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lato';
+
+  src: local('lato'), url("../fonts/Lato-Bold.ttf");
+
+  font-weight: bold;
+
+  font-display: swap;
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -502,6 +532,228 @@ Ensure the default browser behavior of the `hidden` attribute.
   .container {
     max-width: 1536px;
   }
+}
+
+.theme-title-01 {
+  font-family: lato;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+@media (min-width: 640px) {
+  .theme-title-01 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
+
+@media (min-width: 768px) {
+  .theme-title-01 {
+    font-size: 34px;
+    line-height: 41px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-title-01 {
+    font-size: 38px;
+    line-height: 55px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .theme-title-01 {
+    font-size: 48px;
+  }
+}
+
+.theme-title-02 {
+  font-family: lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+@media (min-width: 640px) {
+  .theme-title-02 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 768px) {
+  .theme-title-02 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-title-02 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .theme-title-02 {
+    font-size: 42px;
+  }
+}
+
+.theme-title-03 {
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+@media (min-width: 640px) {
+  .theme-title-03 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .theme-title-03 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-title-03 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .theme-title-03 {
+    font-size: 28px;
+  }
+}
+
+.theme-title-04 {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@media (min-width: 640px) {
+  .theme-title-04 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .theme-title-04 {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-title-04 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .theme-title-04 {
+    font-size: 20px;
+  }
+}
+
+.theme-text-01 {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (min-width: 768px) {
+  .theme-text-01 {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-text-01 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.theme-text-02 {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@media (min-width: 768px) {
+  .theme-text-02 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-text-02 {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+.theme-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .theme-section {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .theme-section {
+    padding: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+.theme-btn-01 {
+  position: relative;
+  display: flex;
+  height: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 180px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.theme-btn-01 svg {
+  margin-right: 7px;
 }
 
 .relative {
@@ -586,12 +838,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .mt-5 {
@@ -634,24 +886,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 65px;
 }
 
-.min-h-\[380px\] {
-  min-height: 380px;
-}
-
 .min-h-\[180px\] {
   min-height: 180px;
 }
 
 .min-h-\[300px\] {
   min-height: 300px;
-}
-
-.min-h-\[\] {
-  min-height: ;
-}
-
-.min-h-\[400px\] {
-  min-height: 400px;
 }
 
 .w-full {
@@ -670,24 +910,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 1140px;
 }
 
-.max-w-\[900px\] {
-  max-width: 900px;
-}
-
 .max-w-\[660px\] {
   max-width: 660px;
 }
 
-.max-w-xl {
-  max-width: 36rem;
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[330px\] {
-  max-width: 330px;
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 
 .flex-shrink-0 {
@@ -746,16 +978,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-full {
@@ -779,6 +1007,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-color06 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-color03 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 52 52 / var(--tw-bg-opacity));
 }
 
 .bg-color04 {
@@ -825,6 +1058,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-12 {
   padding: 3rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-\[20px\] {
@@ -915,6 +1152,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:flex-row {
     flex-direction: row;
   }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -959,16 +1200,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .lg\:min-h-\[380px\] {
+    min-height: 380px;
+  }
+
   .lg\:min-h-\[500px\] {
     min-height: 500px;
   }
 
   .lg\:min-h-\[400px\] {
     min-height: 400px;
-  }
-
-  .lg\:min-h-\[380px\] {
-    min-height: 380px;
   }
 
   .lg\:w-1\/2 {
@@ -1021,6 +1262,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 }
 
